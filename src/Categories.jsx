@@ -1,7 +1,7 @@
-import React, { useState } from "react"
+import React from "react"
 import { smoothScroll } from "./utils"
 
-export default function Categories({ activeCategory, setActiveCategory }) {
+export default function Categories({ setActiveCategory }) {
     return (
         <nav className="categories">
             <ol>

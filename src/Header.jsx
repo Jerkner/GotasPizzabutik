@@ -9,7 +9,7 @@ export default function Header() {
                     <li>
                         <NavLink
                             to="/"
-                            activeClassName="selected-link"
+                            activeclassname="selected-link"
                             className="header-menu"
                         >
                             <h1>Meny</h1>
@@ -18,7 +18,7 @@ export default function Header() {
                     <li>
                         <NavLink
                             to="/om"
-                            activeClassName="selected-link"
+                            activeclassname="selected-link"
                             className="header-about"
                         >
                             <h1>Om oss</h1>

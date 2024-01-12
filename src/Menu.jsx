@@ -7,6 +7,7 @@ import Lyxpizzor from "./Menus/Lyxpizzor.jsx"
 import Nyheter from "./Menus/Nyheter.jsx"
 import VeganskaPizzor from "./Menus/VeganskaPizzor.jsx"
 import SalladOchKebaber from "./Menus/SalladOchKebaber.jsx"
+import About from "./About.jsx"
 
 export default function Menu() {
     const [activeCategory, setActiveCategory] = useState(null)
