@@ -8,7 +8,7 @@ export default function Phone() {
             <h3>
                 Beställ här:
                 <br />
-                <a href="+46317135382">
+                <a href="tel:+46317135382">
                     <FontAwesomeIcon icon={faPhone} />
                     031-713 53 82
                 </a>
