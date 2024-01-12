@@ -15,7 +15,7 @@ export default function App() {
                         element={<Menu />}
                     />
                     <Route
-                        path="/om/"
+                        path="/om"
                         element={<About />}
                     />
                 </Routes>
