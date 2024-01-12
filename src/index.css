@@ -25,7 +25,7 @@ a:hover {
 
 body {
     background-attachment: fixed;
-    background-image: url("./pizza_bakgrund.jpeg");
+    background-image: url("/pizza_bakgrund.jpeg");
     background-size: cover;
     overflow-y: scroll;
 }

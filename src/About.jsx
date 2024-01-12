@@ -11,7 +11,7 @@ export default function About() {
                 <div className="info">
                     <div className="left-col">
                         <Phone />
-                        <img src="./image1.jpg" />
+                        <img src="/image1.jpg" />
                     </div>
 
                     <div className="right-col">
