@@ -21,7 +21,7 @@ export default function Header() {
                             activeclassname="selected-link"
                             className="header-about"
                         >
-                            <h1>Om oss</h1>
+                            <h1>Beställ</h1>
                         </NavLink>
                     </li>
                 </ul>

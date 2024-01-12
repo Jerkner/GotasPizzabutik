@@ -57,6 +57,36 @@ main {
     gap: 0;
 }
 
+.welcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1em;
+    gap: 1em;
+}
+
+.welcome h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.logo-container {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
 .categories {
     width: 100%;
     margin-bottom: 1em;
@@ -233,9 +263,9 @@ footer {
     gap: 1em;
 }
 
-.info-container img {
+.left-col img {
     width: 100%;
-    padding-bottom: 1em;
+    margin-bottom: 1em;
     border-radius: 10px;
 }
 
@@ -272,11 +302,20 @@ iframe {
     aspect-ratio: 7.08/4;
 }
 
+.tider-och-smaklig {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .tider {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 tr {
@@ -290,13 +329,24 @@ tr {
 }
 
 .smaklig {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 3em;
     text-align: center;
+    margin-top: 0.25em;
+}
+
+.smaklig .logo-container {
+    width: 100%;
 }
 
 @media (min-width: 480px) {
     .categories,
-    .menu-container {
+    .menu-container,
+    .welcome {
         width: 480px;
     }
 
@@ -319,6 +369,18 @@ tr {
 }
 
 @media (min-width: 769px) {
+    .welcome {
+        width: 100%;
+    }
+
+    .logo-container {
+        width: 33%;
+    }
+
+    .welcome h1 {
+        font-size: 4vw;
+    }
+
     .om-oss h3 {
         font-size: 2em;
     }
@@ -333,9 +395,29 @@ tr {
         width: 50%;
     }
 
+    .left-col img {
+        margin-bottom: 0;
+    }
+
     .right-col {
         width: 50%;
         display: flex;
         flex-direction: column;
+    }
+
+    .tider-och-smaklig {
+        flex-direction: row;
+        font-size: 0.75em;
+        align-items: end;
+    }
+
+    .tider {
+        width: 50%;
+        font-size: 1.75em;
+    }
+
+    .smaklig {
+        width: 50%;
+        margin-top: 0;
     }
 }

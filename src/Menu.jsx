@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react"
 import Masonry from "masonry-layout"
+import Welcome from "./Welcome.jsx"
 import Footer from "./Footer.jsx"
 import Categories from "./Categories.jsx"
 import Pizzor from "./Menus/Pizzor.jsx"
@@ -7,7 +8,6 @@ import Lyxpizzor from "./Menus/Lyxpizzor.jsx"
 import Nyheter from "./Menus/Nyheter.jsx"
 import VeganskaPizzor from "./Menus/VeganskaPizzor.jsx"
 import SalladOchKebaber from "./Menus/SalladOchKebaber.jsx"
-import About from "./About.jsx"
 
 export default function Menu() {
     const [activeCategory, setActiveCategory] = useState(null)
@@ -25,6 +25,7 @@ export default function Menu() {
 
     return (
         <main>
+            <Welcome />
             <Categories
                 activeCategory={activeCategory}
                 setActiveCategory={setActiveCategory}

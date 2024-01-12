@@ -2,6 +2,7 @@ import React from "react"
 import GoogleMap from "./GoogleMap"
 import Phone from "./Phone"
 import Times from "./Times"
+import Logo from "./Logo"
 
 export default function About() {
     return (
@@ -25,8 +26,13 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <Times />
-                <h4 className="smaklig">Smaklig måltid!</h4>
+                <div className="tider-och-smaklig">
+                    <Times />
+                    <div className="smaklig">
+                        <Logo />
+                        <h4>Smaklig måltid!</h4>
+                    </div>
+                </div>
             </div>
         </section>
     )
