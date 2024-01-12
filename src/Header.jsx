@@ -17,7 +17,7 @@ export default function Header() {
                     </li>
                     <li>
                         <NavLink
-                            to="/om"
+                            to="/bestall"
                             activeclassname="selected-link"
                             className="header-about"
                         >
