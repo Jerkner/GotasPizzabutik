@@ -220,6 +220,7 @@ footer {
     font-weight: 700;
     text-align: center;
     color: white;
+    cursor: pointer;
 }
 
 .scroll-to-top-button:hover {
